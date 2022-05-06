@@ -1,0 +1,58 @@
+* {margin: 0;padding: 0;}
+html {scroll-behavior: smooth;}
+body {background-color: white;}
+
+/* Styling for h elements */
+h1{text-align: center;font-size: 20px;font-family: "Trebuchet MS", Helvetica, sans-serif ;color:#4285F4;margin-left: 15%;margin-right: 15%;}
+h2{text-align: center;font-size: 18px;font-family: "Trebuchet MS", Helvetica, sans-serif ;color:#221F1F;margin-left: 15%;margin-right: 15%;}
+
+/* Styling for p element */
+p{font-size: 16px;font-family:  Verdana, Tahoma, sans-serif;text-align: justify;margin-left: 15%;margin-right: 15%;}
+
+/* Styling for table */
+.table{margin-left: 15%;margin-right: 15%;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 16px;}
+table{border-collapse: collapse;width: 100%;border-color: #221F1F;}
+
+/* Styling for images */
+.img {margin-left: 18%;margin-right: 18%;}
+.img img{padding-right: 10px;height: 280px;}
+.img a {text-decoration: none;}
+
+/* Header */
+.header {padding: 7px;position: fixed;top:0;width: 100%;border-bottom: solid 1.5px;background-color: white;}
+.header h2 {color: #4285F4;text-align: left;text-align: center;}
+
+/* Content */
+.main {line-height: 0.9cm;word-wrap: break-word;padding-top: 160px;}
+.main ul li {font-size: 16px;font-family:  Verdana, Tahoma, sans-serif;text-align: justify;margin-left: 18%;margin-right: 18%;}
+.navigation a {text-decoration: none;color: #292F33;}
+.navigation p {color: #292F33;margin-left: 11%;}
+.navigation a:hover, .navigation {color: #4285F4;}
+
+
+/* Footer */
+.footer{position: relative;bottom: 0;padding: 10px;margin-left: 10%;margin-right: 10%;border-top: solid #221F1F 1.5px;
+        font-family: Verdana, Tahoma, sans-serif;font-size: 16px;}
+.footer li {display: inline;}
+
+
+
+/* Navigation Bar */
+.navbar {width: 100%;height: 15%;padding-top: 7px;padding-left: 34%;
+        margin-top: 45px; position: fixed;
+        font-size: 18px;font-family: "Trebuchet MS", Helvetica, sans-serif;
+        background-color: white;text-align: center;}
+
+.active {background-color: #4285F4;border-radius: 80px;}
+
+.navbar ul li {float: left;margin: 0.5%;
+               list-style-type: none;}
+
+.navbar ul li a {line-height: 33px;color:#221F1F;
+                display: block;text-decoration: none;}
+
+/* Dropdown Display */
+
+.navbar a:hover, .hover{color: #4285F4;}
+
+
